@@ -6,13 +6,17 @@ body {
 }
 
 .card,
-.navbar {
+.navbar,
+.book-list {
   background-color: #343a40;
 }
 
 input[type="text"],
 input[type="number"],
 input[type="url"],
+input[type="search"],
+input[type="email"],
+.input-group-text,
 .form-select,
 textarea {
   background-color: #343a40;
@@ -25,8 +29,22 @@ textarea {
 input[type="text"]:hover,
 input[type="number"]:hover,
 input[type="url"]:hover,
+input[type="search"]:hover,
 textarea {
   background-color: #343a40;
 }
 
+.search-group {
+  width: 20%;
+}
 
+.user-avatar {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin: 5px;
+  line-height: 36px;
+  border-radius: 50%;
+  background-size: cover;
+  color: white;
+}

@@ -22,140 +22,139 @@
 
     <title>Book App || User Lists</title>
   </head>
-  <body class="container-fluid bg-dark">
-    <div class="container-fluid">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-          <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="./dashboard.html"
-              ><i class="fa fa-book px-1" aria-hidden="true"></i>Book Store</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarText"
-              aria-controls="navbarText"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="./index.html"
+            ><i class="fa fa-book px-1" aria-hidden="true"></i>Book Store</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./addbook.html">Add Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./booklist.html">Book List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./userlist.html">User List</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Add Book</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./booklist.html">Book List</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./userlist.html">User List</a>
+                  <a class="nav-link" href="./login.html"
+                    ><i class="fa fa-sign-in px-1" aria-hidden="true"></i
+                    >Logout</a
+                  >
                 </li>
               </ul>
-              <span class="navbar-text">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="./index.html"
-                      ><i class="fa fa-sign-in px-1" aria-hidden="true"></i
-                      >Logout</a
-                    >
-                  </li>
-                </ul>
-              </span>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <section>
-        <div class="container my-3 bg-secondary">
-          <div class="my-3">
-            <h1 class="text-white fs-6 fw-bold">
-              <i class="fa fa-users" aria-hidden="true"></i>User Lists
-            </h1>
-          </div>
-
-          <div class="mb-3">
-            <table class="table table-dark table-striped table-bordered">
-              <thead>
-                <tr>
-                  <th scope="col">Name</th>
-                  <th scope="col">Email</th>
-                  <th scope="col">Address</th>
-                  <th scope="col">Created</th>
-                  <th scope="col">Balance</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Dwight Koeplin</th>
-                  <td>DwightKoepline@emilie.name</td>
-                  <td>9128 Conroy fork</td>
-                  <td>january 10, 2017</td>
-                  <td>$1,186.87</td>
-                </tr>
-                <tr>
-                  <th scope="row">Henri Haley</th>
-                  <td>HenriHaley@kacie.net</td>
-                  <td>2411 Mohr court</td>
-                  <td>february 1, 2021</td>
-                  <td>$62.73</td>
-                </tr>
-                <tr>
-                  <th scope="row">Torey Parisian</th>
-                  <td>Ivorywolf04@gmail.com</td>
-                  <td>7608 Hilbert Dale</td>
-                  <td>October 29, 2015</td>
-                  <td>$3,014.64</td>
-                </tr>
-                <tr>
-                  <th scope="row">Earnestine Kertzmann</th>
-                  <td>Earnestine.Kertzmann@dallin.com</td>
-                  <td>8145 Nedara Mountains</td>
-                  <td>October 12, 2011</td>
-                  <td>$9,425.26</td>
-                </tr>
-                <tr>
-                  <th scope="row">Jena Nader</th>
-                  <td>Jena.Nader@nader.org/td></td>
-                  <td>86116 Parisian</td>
-                  <td>November 28, 2013</td>
-                  <td>$1,609.58</td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="mb-3 d-flex justify-content-between">
-              <p class="text-white">Showing Page 1 of 15</p>
-              <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>Last
-                    </a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>Prev
-                    </a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>Next
-                    </a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>Last
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
+            </span>
           </div>
         </div>
-      </section>
-    </div>
+      </nav>
+    </header>
+    <section>
+      <div class="container my-3 book-list">
+        <div class="my-3">
+          <h1 class="text-white fs-6 fw-bold">
+            <i class="fa fa-users" aria-hidden="true"></i>User Lists
+          </h1>
+        </div>
+
+        <div class="mb-3">
+          <table class="table table-dark table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Address</th>
+                <th scope="col">Created</th>
+                <th scope="col">Balance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Dwight Koeplin</th>
+                <td>DwightKoepline@emilie.name</td>
+                <td>9128 Conroy fork</td>
+                <td>january 10, 2017</td>
+                <td>$1,186.87</td>
+              </tr>
+              <tr>
+                <th scope="row">Henri Haley</th>
+                <td>HenriHaley@kacie.net</td>
+                <td>2411 Mohr court</td>
+                <td>february 1, 2021</td>
+                <td>$62.73</td>
+              </tr>
+              <tr>
+                <th scope="row">Torey Parisian</th>
+                <td>Ivorywolf04@gmail.com</td>
+                <td>7608 Hilbert Dale</td>
+                <td>October 29, 2015</td>
+                <td>$3,014.64</td>
+              </tr>
+              <tr>
+                <th scope="row">Earnestine Kertzmann</th>
+                <td>Earnestine.Kertzmann@dallin.com</td>
+                <td>8145 Nedara Mountains</td>
+                <td>October 12, 2011</td>
+                <td>$9,425.26</td>
+              </tr>
+              <tr>
+                <th scope="row">Jena Nader</th>
+                <td>Jena.Nader@nader.org/td></td>
+                <td>86116 Parisian</td>
+                <td>November 28, 2013</td>
+                <td>$1,609.58</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="mb-3 d-flex justify-content-between">
+            <p class="text-white">Showing Page 1 of 15</p>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>Last
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>Prev
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>Next
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>Last
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
