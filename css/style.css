@@ -35,6 +35,18 @@ textarea {
   background-color: #343a40;
 }
 
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control:active {
+  color: #ffffff;
+}
+
+input[type="text"]:focus {
+  background-color: #ffffff;
+}
+
 .search-group {
   width: 20%;
 }
@@ -48,4 +60,8 @@ textarea {
   border-radius: 50%;
   background-size: cover;
   color: white;
+}
+
+.icon {
+  color: #ffffff;
 }
