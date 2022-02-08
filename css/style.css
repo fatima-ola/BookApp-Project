@@ -21,6 +21,7 @@ input[type="email"],
 .form-select,
 textarea {
   background-color: #343a40;
+  color: #ffffff;
 }
 
 .form-select {
